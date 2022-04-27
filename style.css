@@ -1,0 +1,48 @@
+
+  .imagem {
+    height: 100px;
+    width: 100px; 
+  }
+  .campo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .campoJogo{
+    width: 600px;
+    max-height: fit-content;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 100px;
+    justify-content: space-around;
+    
+  }
+  #cara{
+    height: 200px;
+    width: 200px;
+  }
+  #coroa{
+    height: 200px;
+    width: 200px;
+  }
+  ul{
+    display: flex;
+    font-size: x-large;
+    margin-left: 70px;
+  }
+  ul li{
+    list-style:none;
+  }
+  #doge1{
+    z-index: 1;
+    position: fixed;
+    top: 180px;
+    left: 150px;
+  }
+  #doge2{
+    z-index: 1;
+    position: fixed;
+    top: 180px;
+    left: 1150px;
+  }
